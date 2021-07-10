@@ -85,9 +85,9 @@ function keyPressed() {
   }
 }
 function movethethingy(){
-if(keyCode == LEFT_ARROW){
+if(keyCode === LEFT_ARROW){
 	helicopterSprite.x=helicopterSprite.x-20;}
-	if(keyCode == RIGHT_ARROW){
+	if(keyCode === RIGHT_ARROW){
 		helicopterSprite.x=helicopterSprite.x+20;}}
 
 
